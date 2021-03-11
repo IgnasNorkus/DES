@@ -44,11 +44,13 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.eTexttb = new System.Windows.Forms.TextBox();
+            this.filecb1 = new System.Windows.Forms.CheckBox();
+            this.filecb2 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(518, 328);
+            this.button4.Location = new System.Drawing.Point(514, 388);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(120, 41);
             this.button4.TabIndex = 31;
@@ -58,7 +60,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(124, 328);
+            this.button3.Location = new System.Drawing.Point(107, 388);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(120, 41);
             this.button3.TabIndex = 30;
@@ -100,7 +102,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(518, 268);
+            this.button2.Location = new System.Drawing.Point(514, 328);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(120, 41);
             this.button2.TabIndex = 25;
@@ -158,7 +160,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(124, 268);
+            this.button1.Location = new System.Drawing.Point(107, 328);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(120, 41);
             this.button1.TabIndex = 18;
@@ -182,11 +184,33 @@
             this.eTexttb.Size = new System.Drawing.Size(248, 22);
             this.eTexttb.TabIndex = 16;
             // 
+            // filecb1
+            // 
+            this.filecb1.AutoSize = true;
+            this.filecb1.Location = new System.Drawing.Point(107, 265);
+            this.filecb1.Name = "filecb1";
+            this.filecb1.Size = new System.Drawing.Size(118, 21);
+            this.filecb1.TabIndex = 32;
+            this.filecb1.Text = "Read from file";
+            this.filecb1.UseVisualStyleBackColor = true;
+            // 
+            // filecb2
+            // 
+            this.filecb2.AutoSize = true;
+            this.filecb2.Location = new System.Drawing.Point(514, 265);
+            this.filecb2.Name = "filecb2";
+            this.filecb2.Size = new System.Drawing.Size(118, 21);
+            this.filecb2.TabIndex = 33;
+            this.filecb2.Text = "Read from file";
+            this.filecb2.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(823, 478);
+            this.Controls.Add(this.filecb2);
+            this.Controls.Add(this.filecb1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label4);
@@ -228,6 +252,8 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox eTexttb;
+        private System.Windows.Forms.CheckBox filecb1;
+        private System.Windows.Forms.CheckBox filecb2;
     }
 }
 
